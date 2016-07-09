@@ -4,84 +4,34 @@
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
+
  }
 
 body {
-	background-color: lightblue;
+	background-image: url(http://finodiary.trade/wp-content/uploads/2015/06/light-grey-background-pattern-i11.jpg);
 }
 
 a {
 	color: #3a384c;
 	text-decoration: none;
+	color: white;
+}
+
+.header {
+
 }
 
 .home {
-	width: 58.33%;
-	font-size: 30px;
-	font-family: Papyrus, serif;
+	width: 71%;
+	font-size: 40px;
+	font-family: arial;
 	padding: 10px;
 	margin-left: 10px;
 	padding-top: 20px;
-	border: 1px solid #3f51b5;
-	border-radius: 20px;
-	background-color: #1ba3b9;
-}
-
-.tab {
-	display: flex;
+	border: 1px solid black;
+	background-color: black;
+	margin: auto;
 	text-decoration: none;
-}
-	
-.btn-1 {
-	width: 8.33%;
-	font-size: 15px;	
-	font-family: Gill Sans, Arial, sans-serif;
-	text-align: center;
-	padding-top: 30px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	border: 1px solid #3f51b5;
-	border-radius: 20px;
-	background-color: #1ba3b9;
-}
-
-.btn-2 {
-	width: 8.33%;
-	font-size: 15px;	
-	font-family: Gill Sans, Arial, sans-serif;
-	text-align: center;
-	padding-top: 30px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	border: 1px solid #3f51b5;
-	border-radius: 20px;
-	background-color: #1ba3b9;	
-}
-
-.btn-3 {
-	width: 8.33%;
-	font-size: 15px;	
-	font-family: Gill Sans, Arial, sans-serif;
-	text-align: center;
-	padding-top: 20px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	border: 1px solid #3f51b5;
-	border-radius: 20px;
-	background-color: #1ba3b9;
-}
-	
-.btn-4 {
-	width: 8.33%;
-	font-size: 15px;	
-	font-family: Gill Sans, Arial, sans-serif;
-	text-align: center;
-	padding-top: 20px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	border: 1px solid #3f51b5;
-	border-radius: 20px;
-	background-color: #1ba3b9;	
 }
 
 .btn-5 {
@@ -100,8 +50,8 @@ a {
 }
 
 .title {
-	font-size: 30px;
-	font-family: Gill Sans, Arial, sans-serif;
+	font-size: 20px;
+	font-family: Arial, sans-serif;
 	text-align: center 
 }
 
@@ -111,17 +61,117 @@ a {
 }
 
 .picture {
-	padding-left: 10px;
+	padding: 10px;
 	text-align: center;
 	width: 100%;
 }
 
+.bodypicture {
+	width: 1000px;
+	height:400px;
+}
+
 .blogbody {
 	padding: 10px;
+	width: 70%;
+	margin: auto;
+	font-family: arial;
+	border: 4px solid black;
+	background-image: url(http://wallpapercave.com/wp/Hd7S83Q.png);
+	margin-bottom: 30px;
 }
 
 .footer {
-	font-size: 20px;
-	font-family: cursive;
 	text-align: center;
+	width: 71%;
+	font-size: 15px;
+	font-family: sans-serif;
+	padding: 10px;
+	border: 1px solid black;
+	background-color: black;
+	margin: auto;
+	color: white;
+	margin-top: 10px;
+}
+
+.blogs {
+	position: relative;
+}
+
+.blog1 {
+	width: 450px;
+	height: 250px;
+}
+
+.blog2 {
+ 	width: 450px;
+	height: 250px;
+}
+
+.blog3 {
+	width: 450px;
+	height: 250px;
+}
+
+.blog4 {
+	width: 450px;
+	height: 250px;
+}
+
+.blog5 {
+	width: 450px;
+	height: 250px;
+}
+
+.reflection {
+	border: 1px solid black;
+	background-color: black;
+	color: white;
+	margin: 10px;
+	padding: 5px;
+	font-size: 20px;
+	font-family: Arial;
+	position: absolute;
+}
+.timeandhabits {
+	border: 1px solid black;
+	background-color: black;
+	color: white;
+	margin: 10px;
+	padding: 5px;
+	font-size: 20px;
+	font-family: Arial;
+	position: absolute;
+}
+.part1 {
+	border: 1px solid black;
+	background-color: black;
+	color: white;
+	margin: 10px;
+	padding: 5px;
+	font-size: 20px;
+	font-family: Arial;
+	position: absolute;
+}
+
+.part2 {
+	border: 1px solid black;
+	background-color: black;
+	color: white;
+	margin: 10px;
+	padding: 5px;
+	font-size: 20px;
+	font-family: Arial;
+	position: absolute;
+}
+
+.emotional {
+	border: 1px solid black;
+	background-color: black;
+	color: white;
+	margin: 10px;
+	padding: 5px;
+	font-size: 20px;
+	font-family: Arial;
+	position: absolute;
 }
