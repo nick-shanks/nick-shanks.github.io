@@ -30,28 +30,33 @@ h1 {
 }
 
 .mainpicture {
-  width: 400px;
-  height: 175px;
+  width: 100%;
+  display: block;
+  margin: auto;
 }
 
 h2 {
   font-size: 1.5em;
+  text-align: center
   }
 
 h3 {
   font-size: 1em;
   margin-bottom: 0px;
+  position: absolute;
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+  padding: 5px;
 
 }
 .blogimage {
-  display: block;
-  margin: auto;
   width: 250px;
   height: 150px;
 }
 
-.quote{
-  background-color: black;
-  color: white;
-  padding: 10px;
+.blogs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
