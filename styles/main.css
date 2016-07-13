@@ -1,4 +1,3 @@
-
 .navigation {
   background-color: black;
   padding: 10px;
@@ -17,18 +16,28 @@ li {
   color: white;
 }
 
-@media only screen and (min-width: 400px) {
-  .socialmedia {
-    display: none;
+.mainpicture {
+  width: 100%;
+  height: 10%;
+}
+
+h2 {
+  font-size: 1.5em;
   }
-  .mainpicture {
-    display: none;
-  }
-  h2 {
-    font-size: 1.5em;
-  }
-  img {
-    height: 200px;
-    width: 400px;
-  }
+h3 {
+  font-size: 1em;
+  margin-bottom: 0px;
+
+}
+.blogimage {
+  display: block;
+  margin: auto;
+  width: 90%;
+  height: 10%;
+}
+
+.quote{
+  background-color: black;
+  color: white;
+  padding: 10px;
 }
