@@ -1,0 +1,42 @@
+
+ul {
+  background-color: black;
+  list-style: none;
+  display: flex;
+  padding: 10px;
+  padding top: 10px;
+  padding-bottom: 0px;
+}
+
+li {
+  padding: 0px;
+  padding-right: 30px;
+  color: white;
+}
+
+@media only screen and (min-width: 400px) {
+  .socialmedia {
+    display: none;
+  }
+  .mainpicture {
+    display: none;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  img {
+    height: 200px;
+    width: 400px;
+  }
+}
+
+@media only screen and (min-width:750px) {
+  .socialmedia {
+    display: block;
+    width: 40px;
+    height:40px;
+  }
+  .mainpicture {
+    display: block;
+    width: 100%;
+    height: 10%;
