@@ -1,11 +1,14 @@
 
-ul {
+.navigation {
   background-color: black;
+  padding: 10px;
+  padding-bottom: 0px;
+}
+
+ul {
   list-style: none;
   display: flex;
-  padding: 10px;
   padding top: 10px;
-  padding-bottom: 0px;
 }
 
 li {
