@@ -20,8 +20,7 @@ li {
 }
 
 h1 {
-  color: white;
-  position: absolute;
+  color: black;
   font-size: 3em;
   width: 100%;
   font-family: monospace;
@@ -37,8 +36,7 @@ a {
 }
 
 .mainpicture {
-  width: 100%;
-  display: block;
+  display: none;
 }
 
 h2 {
@@ -81,12 +79,18 @@ h3 {
 }
 
 @media only screen and (min-width: 750px) {
+  .mainpicture {
+    width: 100%;
+    display: block;
+  }
   .blogimage {
     width: 400px;
     height: 250px;
   }
   h1 {
     font-size: 5.5em;
+    position: absolute;
+    color: white;
   }
   h2 {
     font-size: 1.6em;
