@@ -1,5 +1,6 @@
 var input = document.getElementsByTagName('li')[0];
 
+
 input.addEventListener('mouseenter', incoming);
 input.addEventListener('mouseleave', exit);
 

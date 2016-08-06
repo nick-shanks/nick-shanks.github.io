@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JS Language</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link rel="stylesheet" href="../styles/main.css">
+<link href='https://fonts.googleapis.com/css?family=Harmattan' rel='stylesheet' type='text/css'>
+  <script src="events.js"></script>
+
+</head>
+  <body>
+
+    <div class="navigation">
+      <ul>
+        <a href="http:/nick-shanks.github.io/index.html">
+        <li>Home</li>
+       </a>
+        <li>About</li>
+      </ul>
+    </div>
+
+    <div class="header">
+      <h1 class="webdesigntitle">JS Language</h1>
+      <img class="headerblogpicture" src="https://cdnb1.artstation.com/p/assets/images/images/000/837/509/large/christopher-guerra-lightning-banner.jpg?1434220069"/>
+    </div>
+
+    <div class="blog">
+      <h5><em>6 August 2016</em></h5>
+      <p id="title">
+          JS Language
+      </p>
+      <p>
+      <strong><code>parentheses ( )</code></strong> Parentheses have multiple uses relating to functions and structures. They are used to contain a list of parameters passed to functions and control structures. They are also used to group and control the order of execution. Some functions have no parameters and in this case, the space between parentheses is blank.
+      <pre>
+        <code>
+        a = (1 + 1) * 2;      Grouping
+
+        if (a > 9) {          Containing
+
+        before(a, 0, a, 100); Containing a list of parameters
+        </code>
+      </pre>
+      </p>
+      <p>
+      <strong><code>brackets [ ]</code></strong> Brackets are used to create an collection of things (array). You put the group of things inside the brackets so they are together and can be called together. If you want to call one of the things in the array you can you the bracket notation to call a particular data inside that array. The positon of the array is fixed. We just need to know the name and position of the data we want. The position of each bit of data is counted starting from 0.
+
+      <pre>
+        <code>
+          var arrayName = [data, moreData];
+
+          arrayName[0] = data
+        </code>
+      </pre>
+
+      </p>
+      <p>
+      <strong><code>braces { }</code></strong> Braces are used for object literals. Objects allow us to represent in code real world things and entities (such as a person or bank account). We do this by storing all relevant information in one place - an object. The braces group all the properties and values inside that object and can be accessed later on using dot or bracket notation. Brackets are also used to keep statements of a function and loop inside that function or loop.
+      <pre>
+        <code>
+          var nick = {
+            name: "Nick Shanks",
+            age: 25,
+            hometown: "Tauranga"
+          };
+
+          var count = 0
+            while (count < 3) {
+              console.log ("I'm looping")
+              count ++;
+            };
+        </code>
+      </pre>
+      </p>
+      <p>
+      <strong><code>single quotes ' ' Vs. double quotes " "</code></strong> Both single and double quotes can be used for strings. Strings are sequences of characters like the letters a-z, spaces and can also be numbers. Strings are useful as labels, names and content in programs. To make a number in code you can just write a number as numerals without quotes. To write a string, surround words with quotes <code>'Whats your name?'</code>. It mostly comes down to preference, however if you single quotes and some words inside the string have apostrophe's you will be doing a lot of backslashing to ensure the console doesn't think your string ended end with the <code>'</code>. At this stage I prefer double quotes for that reason.
+
+      <pre>
+        <code>
+          'A string that\'s single quoted'
+
+          "A string that's double quoted"
+        </code>
+      </pre>
+      </p>
+    </div>
+
+  </body>
+</html>
