@@ -1,8 +1,11 @@
-var input = document.getElementsByTagName('li')[0];
+var input = document.getElementsByTagName('li');
 
 
-input.addEventListener('mouseenter', incoming);
-input.addEventListener('mouseleave', exit);
+for (var i = 0; i < input.length; i++) {
+
+  input[i].addEventListener('mouseenter', incoming);
+  input[i].addEventListener('mouseleave', exit);
+ }
 
 function incoming (evt) {
   evt.target.style.backgroundColor = 'white';
