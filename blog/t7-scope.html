@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JS Scope</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Harmattan' rel='stylesheet' type='text/css'>
+    <script src="events.js"></script>
+
+</head>
+
+<body>
+
+    <div class="navigation">
+        <ul>
+            <a href="http:/nick-shanks.github.io/index.html">
+                <li>Home</li>
+            </a>
+            <li>About</li>
+        </ul>
+    </div>
+
+    <div class="header">
+        <h1 class="webdesigntitle">JS Scope</h1>
+        <img class="headerblogpicture" src="https://cdn-images-1.medium.com/max/1024/1*bcZz-qb_DNpvrNNwQBhQmQ.jpeg"/>
+    </div>
+
+    <div class="blog">
+        <h5><em>16 August 2016</em></h5>
+        <p id="title">
+            JS Scope
+        </p>
+        <p>
+            In JavaScript, scope refers to the current context of your codes variables, functions and objects. Scopes can be globally or locally defined. When you first type a line of code in JavaScript you are in the <code>Global Scope</code>. A variable
+            in the global scope can be accessed and used by any functions in the file.
+        </p>
+        <pre>
+          <code>
+            // global scope
+            var name = 'Nick';
+          </code>
+        </pre>
+        <p>
+            If a variable is created inside of a function it is in the<code>Local Scope</code> and is only defined inside that function, same with functions inside of functions. If you tried to call it outside of the function it would return undefined as the outside of that function can not see the variable.
+        </p>
+        <pre>
+          <code>
+            var myFunction = function () {
+              var name = 'Nick';
+              console.log(name); // Nick
+            };
+            // Uncaught ReferenceError: name is not defined
+            console.log(name);
+          </code>
+        </pre>
+        <p>
+          Being in local scope could be compared to being inside of a car with tinted windows. No one outside of the car can see you or know it's you inside of the car, but you can see them and know what going on outside of the car. If you wanted you could pull over and use something from outside but no one could stop you and use anything inside your car (in a crime free world!).
+    </div>
+
+</body>
+
+</html>
