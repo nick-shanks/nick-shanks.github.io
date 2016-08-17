@@ -1,18 +1,23 @@
-var input = document.getElementsByTagName('li');
+document.addEventListener("DOMContentLoaded", highlightedMenu)
 
+function highlightedMenu() {
 
-for (var i = 0; i < input.length; i++) {
+    var input = document.getElementsByTagName('li');
 
-  input[i].addEventListener('mouseenter', incoming);
-  input[i].addEventListener('mouseleave', exit);
- }
+    for (var i = 0; i < input.length; i++) {
 
-function incoming (evt) {
-  evt.target.style.backgroundColor = 'white';
-  evt.target.style.color = 'black';
-}
+        input[i].addEventListener('mouseenter', incoming);
+        input[i].addEventListener('mouseleave', exit);
+    }
 
-function exit (evt) {
-  evt.target.style.backgroundColor = 'black';
-  evt.target.style.color = 'white';
+    function incoming(evt) {
+        evt.target.style.backgroundColor = 'white';
+        evt.target.style.color = 'black';
+    }
+
+    function exit(evt) {
+        evt.target.style.backgroundColor = 'black';
+        evt.target.style.color = 'white';
+    }
+
 }
